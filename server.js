@@ -23,7 +23,7 @@ function sysDetail(){
 
 
 const server = http.createServer((req, res) => {
-    res.setHeader('Access-control-Allow-Origin', "*");
+    // res.setHeader('Access-control-Allow-Origin', "*");
     res.setHeader("Access-control-Allow-methods", "GET");
     res.setHeader("Access-control-Allow-Headers", "Content-Type");
 
